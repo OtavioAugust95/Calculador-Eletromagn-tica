@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Eletromagnética</title>
+</head>
+<body>
+    <div id="phiscy">
+        <div>
+        <div>
+            <label>Número de Elétrons(n):</label>
+            <input type="number" id="n1">
+            <br>
+            <br>
+            <label>Carga Elementar(e) 1,6 * 10 ^ -19</label>
+            <button onclick="calcularq()">Calcular a Carga Elétrica(q)</button>
+            <br>
+            <br>
+            <div class="resultado1" id="result1">Valor da Carga(q):</div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div>
+            <label>Valor do Cateto Oposto entre os Vetores(CO)</label>
+            <input type="number" id="CO">
+            <br>
+            <br>
+            <label>Valor da Hipotenusa entre os Vetores(v)</label>
+            <input type="number" id="h">
+            <br>
+            <br>
+            <button onclick="calcularseno()">Calcular o Valor do Seno(θ)</button>
+        </div>
+        <div>
+            <label>Módulo da Carga Elétrica(|q|):</label>
+            <input type="number" id="q">
+            <br>
+            <br>
+            <label>Velocidade da Carga(v):</label>
+            <input type="number" id="v">
+            <br>
+            <br>
+            <label>Valor do Campo Magnético(B):</label>
+            <input type="number" id="B">
+            <br>
+            <br>
+            <label>Valor do Seno do Ângulo entre os Vetores(θ)</label>
+            <input type="number" id="θ">
+            <br>
+            <br>
+            <button onclick="calcularF()">Calcular a Força Magnética(F)</button>
+            <div class="resultado3" id="result3">Valor da Força Magnética(F):</div>
+        </div>
+        
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
